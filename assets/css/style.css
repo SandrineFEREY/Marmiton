@@ -34,6 +34,12 @@ section {
   margin-right: 10px;
 }
 
+.images-block {
+  background-color: orchid;
+  margin: 50px auto;
+  width: 630px;
+}
+
 p {
   font-size: 12px;
   font-weight: bold;
@@ -41,7 +47,6 @@ p {
 
 h1 {
   line-height: 50px;
-  background-color: #efefef;
   text-align: center;
   color: #393c6c;
 }
