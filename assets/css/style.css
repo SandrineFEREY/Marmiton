@@ -1,0 +1,53 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #efefef;
+}
+
+header {
+  background-color: white;
+  border-bottom: 1px orange solid;
+  height: 60px;
+}
+
+header img {
+  width: 150px;
+  margin: 15px;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+section {
+  background-color: red;
+  height: 700px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#crêpes img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+h1 {
+  line-height: 50px;
+  background-color: #efefef;
+  text-align: center;
+  color: #393c6c;
+}
+
+h2 {
+}
+
+h3 {
+}
