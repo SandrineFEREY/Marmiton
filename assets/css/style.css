@@ -43,16 +43,18 @@ section {
 p {
   font-size: 12px;
   font-weight: bold;
+  text-align: center;
+}
+
+.temps-block {
+  text-align: center;
+  font-size: larger;
+  border-radius: 20px;
+  margin: 20px auto;
 }
 
 h1 {
   line-height: 50px;
   text-align: center;
   color: #393c6c;
-}
-
-h2 {
-}
-
-h3 {
 }
