@@ -3,6 +3,10 @@ body {
   font-size: 16px;
   background-color: #efefef;
 }
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
 
 header {
   background-color: white;
@@ -15,46 +19,65 @@ header img {
   margin: 15px;
 }
 
-.container {
-  width: 1024px;
-  margin: 0 auto;
-}
-
 section {
-  background-color: red;
+  background-color: grey;
   height: 700px;
   margin-top: 30px;
   margin-bottom: 50px;
 }
 
-#crêpes img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  margin-right: 10px;
+.baseline {
+  text-align: center;
+  line-height: 40px;
+}
+.time {
+  background-color: red;
+  width: 400px;
+  margin: 30px auto;
+}
+
+.time p {
+  color: white;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0;
 }
 
 .images-block {
-  background-color: orchid;
-  margin: 50px auto;
-  width: 630px;
-}
-
-p {
-  font-size: 12px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.temps-block {
-  text-align: center;
-  font-size: larger;
-  border-radius: 20px;
   margin: 20px auto;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  background-color: orchid;
+  display: flex;
+  flex: 1;
 }
 
 h1 {
   line-height: 50px;
   text-align: center;
   color: #393c6c;
+}
+
+h2 {
+  color: yellow;
+}
+
+ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-top: 30px;
+  line-height: 40px;
+}
+
+footer {
+  height: 100;
+}
+
+footer p {
+  background-color: violet;
+  text-align: centre;
+  line-height: 100;
 }
